@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>jQuery Mobile</title>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+  <div data-role="page" id="main" data-title="첫번째 페이지">
+    <div data-role="header">
+      <h1>여수 맛집 & 카페</h1>
+    </div>
+    <div data-role="tabs">
+      <div data-role="navbar">
+        <ul>
+          <li><a href="#tab1">신기동</a></li>
+          <li><a href="#tab3">여수 </a></li>
+          <li><a href="#tab4">돌산</a></li>
+        </ul>
+
+
+        <div id="tab1">
+          <ol data-role="listview">
+            <li><a href="#tab1-1">
+                <img src="맛나게장백반.png">맛나게장백반(게장)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab1-2">
+                <img src="원조40번.png">원조40번(식당)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab1-3">
+                <img src="상무초밥.png">상무초밥(식당)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab1-4">
+                <img src="거북이식당.png">거북이식당(게장)<span class="ui-li-count">hot</span></a></li>
+
+          </ol>
+        </div>
+
+        <div id="tab3">
+          <ol data-role="listview">
+            <li><a href="#tab3-1">
+                <img src="명동게장.png">명동게장(식당)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-2">
+                <img src="이순신수제버거.png">이순신수제버거(햄버거)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-3">
+                <img src="여수당.png">여수당(베이커리)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-4">
+                <img src="좌수영바게트버거.png">좌수영바게트버거(햄버거)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-5">
+                <img src="돌문어상회.png">돌문어상회(해물,생선요리)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-6">
+                <img src="키스링.png">키스링(베이커리)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-7">
+                <img src="ncnp.png">ncnp(카페,디저트)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-8">
+                <img src="낭만카페.png">낭만카페(카페,디저트)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-9">
+                <img src="청정게장촌.png">청정게장촌(갈치조림, 게장백반)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-10">
+                <img src="도시어부삼합.png">도시어부삼합(해물,생선요리)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-11">
+                <img src="카페포.png">카페포(카페,디저트)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab3-12">
+                <img src="바다식탁.png">바다식탁(스파게티,파스타)<span class="ui-li-count">hot</span></a></li>
+
+          </ol>
+        </div>
+        <div id="tab4">
+          <ol data-role="listview">
+            <li><a href="#tab4-1">
+                <img src="모이핀.png">모이핀(카페, 디저트)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab4-2">
+                <img src="카페드몽돌.png">카페드몽돌(브런치)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab4-3">
+                <img src="진남횟집.png">진남횟집(해물,생선요리)<span class="ui-li-count">hot</span></a></li>
+            <li><a href="#tab4-4">
+                <img src="로스티아.png">로스티아(브런치)<span class="ui-li-count">hot</span></a></li>
+
+
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div data-role="page" id="tab1-1" data-title="맛나게장백반">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>신기동 맛나게장백반</h1>
+    </div>
+    <center><img src="맛나게장백반.png">
+      <h1>메뉴</h1>
+      <p>대표돌게장갓고등어정식 - 12,000원<br>꽃게장갓고등어정식 - 28,000원
+        포장판매-간장꽃게장3.5kg(5-6마리) - 100,000원
+        <br>포장판매-간장꽃게장2.5kg(3~4마리) - 90,000원<br>포장판매-양념꽃게장3.0kg - 105,000원
+        <br><br><br><br>SBS 백종원 삼대천왕 방영(17.2.4)<br>KBS 뉴스타임 방영(12.5.7)<br>
+        <br>십여년의 노하우로 깊은 간장게장의 맛을내는 <br>여수맛나게장은 입소문 만으로 아는사람만 찾아가는 <br>진정한 간장게장의 여수맛집입니다.
+        <br>여수갓김치와 묵은지를 넣은 갓고등어 조림과 게장이 어울어진 한상차림으로
+        <br>남녀노소뿐만 아니라 게장을 못드시는 분과 함께여도 즐거고 맛있는 식사를 즐길수 있으며<br> 돌게장 뿐만이 아닌 알이꽉찬 연평도 암꽃게로 담근 간장 꽃게장과 양념게장을 드실수 있습니다.
+        <br>맛과 정성 친절한 서비스로 만족을 드리는 맛나게장 많이 방문해 주세요~^^
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=13126734" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab1-2" data-title="원조40번">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>신기동 원조40번</h1>
+    </div>
+    <center><img src="원조40번.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>갈비찜 - 30,000 ~ 50,000원<br>쭈꾸미 - 30,000원<br>가오리 - 30,000원<br><br><br>
+        백종원의3대천왕 85회17.05.12. 뚝배기갈비찜
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=16982476&query=%EC%9B%90%EC%A1%B040%EB%B2%88" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab1-3" data-title="상무초밥">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>신기동 상무초밥</h1>
+    </div>
+    <center><img src="상무초밥.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>모듬초밥세트 - 11,000원<br>특선초밥세트 - 15,000원<br>특모듬초밥세트 - 20,500원
+        <br>활어초밥 10p - 17,000원<br>참치초밥 10p - 17,000원<br>
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=1946587025" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab1-4" data-title="거북이식당">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>신기동 거북이식당</h1>
+    </div>
+    <center><img src="상무초밥.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>게장백반정식 - 12,000원<br>꽃게장정식(2인이상) - 22,000원<br>
+        간장돌게장(중) - 35,000원<br>간장돌게장(대) - 45,000원<br>
+        양념돌게장(중) - 35,000원<br><br>
+        <bt>
+          생방송오늘저녁 330회16.03.30. 돌게장<br>
+          생생정보통 919회14.07.21. 돌게장
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=21076773" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-1" data-title="명동게장">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 명동게장</h1>
+    </div>
+    <center><img src="명동게장.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>갈치조림+돌게장정식1인 - 18,000원<br>모둠꽃게장+양념꽃게장정식+날치알밥 - 29,000원<br>
+        돌게장백반정식(게장리필3회가능) - 12,000원<br>날치알밥(김가루+참기름+날치알+버터) - 3,000원<br>
+        간장돌게장 포장or택배(소,중,대)(2.5kg,3.5kg,5.5kg) - 30,000, 40,000, 60,000원<br><br><br>
+
+        2TV생생정보 237회17.01.03. 갈치조림/양념게장<br>
+        생방송오늘저녁 296회<br>
+        모닝와이드 6102회<br>
+        갈치조림&돌게장정식&모둠꽃게장백반전문점 여수 명동게장입니다.<br>
+        예약안하고 오셔도 언제나 식사가능!<br>
+        브레이크타임 없습니다!
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=36368164" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-2" data-title="이순신수제버거">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 이순신수제버거</h1>
+    </div>
+    <center><img src="이순신수제버거.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>클래식버거 - 3,900원<br>이순신버거 - 4,500원<br>베이컨 토마토 치즈버거 - 5,500원<br>
+        더블 자이언트 버거 - 6,900원<br>감자튀김 - 4,900원<br><br><br>
+        오직 여수에만 맛볼수 있는 건강한 수제버거<br>
+        이순신 수제버거 드시로 오세요!
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=38010379&query=%EC%9D%B4%EC%88%9C%EC%8B%A0%20%EC%88%98%EC%A0%9C%EB%B2%84%EA%B1%B0" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-3" data-title="여수당">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 여수당</h1>
+    </div>
+    <center><img src="여수당.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>수제바게트버거 - 4,000원<br>해풍 쑥 아이스크림 - 3,000원<br><br><br>
+        여수 명물, 이순신 광장의 대표 먹거리! <br>
+        여수당만의 4번 볶은 특제소스로 만든 매콤 바삭한 바게트 버거, <br>
+        여수에서만 맛 볼수 있는 여수당 수제 바게트 버거!
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1317246570&query=%EC%97%AC%EC%88%98%EB%8B%B9" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-4" data-title="좌수영바게트버거">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 좌수영바게트버거</h1>
+    </div>
+    <center><img src="좌수영바게트버거.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>바게트버거 - 4,000원<br>거문도쑥아이스크림 - 3,000원<br>아메리카노 - 3,000원<br>
+        카페라떼 - 3,500원<br>바닐라라떼 - 3,500원<br><br><br>
+        여수의 명물 좌수영바게트 드셔보세요 ^^
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=pll&id=37695805&query=%EC%A2%8C%EC%88%98%EC%98%81%EB%B0%94%EA%B2%8C%ED%8A%B8%EB%B2%84%EA%B1%B0" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-5" data-title="돌문어상회">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 돌문어상회</h1>
+    </div>
+    <center><img src="돌문어상회.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>돌문어라면 - 10,000원<br>해물라면 - 10,000원<br>돌문어덮밥 - 12,000원<br>
+        어린이문어스팸밥 - 4,500원<br>돌문어삼합 - 39,000원<br><br><br>
+        생방송투데이 2411회19.09.11.<br> 돌문어라면/돌문어덮밥<br><br>
+        생방송오늘저녁 1120회19.07.29.<br> 돌문어라면/돌문어삼합<br><br>
+        생방송투데이 2256회19.01.23.<br> 돌문어라면/돌문어덮밥
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1006319468&query=%EB%8F%8C%EB%AC%B8%EC%96%B4%EC%83%81%ED%9A%8C" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-6" data-title="키스링">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>오동도 키스링</h1>
+    </div>
+    <center><img src="키스링.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>마늘빵 - 7,900원<br>블루베리빵 - 7,900원<br>마늘빵(소) - 4,500원<br>
+        마늘빵(대)+블루베리빵(대) - 15,000원<br>블루베리빵(대)+마늘빵(소) - 12,000원
+        <br><br><br>여수 예약판매로 유명한 빵집
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=1408112099" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-7" data-title="ncnp">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>만흥동 NCNP</h1>
+    </div>
+    <center><img src="NCNP.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>NCNP COFFEE(솔티드 크림 커피) - 6,500원<br>NCNP LATTE(흑임자 크림 라떼) - 6,800원<br>
+        밤바다에이드 - 6,800원<br>검은모래캐비어(캡슐아포카토) - 8,500원<br>
+        검은깨젤라또 - 5,000원<br><br><br>
+        사적인 마음을 담아내는 공간, 그리고 커피
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1000417409&query=NCNP" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-8" data-title="낭만카페">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 낭만카페</h1>
+    </div>
+    <center><img src="낭만카페.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>아메리카노 = 5,000원<br>에스프레소 - 5,000원<br>아인슈패너 - 6,000원<br>
+        카페라떼 - 5,500원<br>낭만라떼 - 6,000원<br><br><br>
+        여수를 대표하는 루프탑카페~ 여수를 느낄 수 있는 낭만카페입니다.
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=111772984&query=%EB%82%AD%EB%A7%8C%EC%B9%B4%ED%8E%98" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-9" data-title="청정게장촌">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>봉산 청정게장촌</h1>
+    </div>
+    <center><img src="청정게장촌.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>갈치조림정식 - 18,000원<br>게장백반정식 - 12,000원<br>간장게장포장 2.5kg(소) - 30,000원<br>
+        간장게장포장 3.5kg(중) - 40,000원<br>간장게장포장 5.5kg(대) - 60,000원<br><br><br>
+        2TV생생정보 563회18.05.02. 갈치게장정식<br>
+        그린실버고향이좋다 233회13.08.04. 갈치<br><br><br>
+        여수하면 돌게장,돌산갓김치가 유명한 해양도시입니다.<br>
+        국내산 돌게장과 갈치조림을 동시에 즐기실수가<br> 있는 청정게장촌입니다.
+        간장게장과양념게장이 리필이 가능하며 <br>넉넉한 남도인심의 대표적 맛집입니다.
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=20553144&query=%EC%B2%AD%EC%A0%95%EA%B2%8C%EC%9E%A5%EC%B4%8C" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-10" data-title="도시어부삼합">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>중앙동 도시어부삼합</h1>
+    </div>
+    <center><img src="도시어부삼합.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>돌문어해물삼합(소) - 38,000원<br>딱새우회 - 30,000원<br>모듬회 - 50,000원<br>
+        선어회 - 40,000원<br>서대회(무침) - 30,000원
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=1942925786" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-11" data-title="카페포">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>고소동 카페포</h1>
+    </div>
+    <center><img src="카페포.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>아메리카노 hot -고소함 - 4,300원<br>카페라떼 hot - 5,300원<br>
+        바닐라빈라떼 hot - 5,800원<br>말차라떼 - 5,300원<br>
+        자몽차 - 4,800원<br><br><br>
+        고소동 벽화마을 제일 높은곳에 위치하고 있어 <br>
+        옥상에서 거북선대교,돌산대교,여수시내를 한눈에 볼 수 있으며<br>
+        내부에선 돌산대교와 장군도를 정면으로 바라보는 뷰맛집 카페
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1499451020&query=%EC%B9%B4%ED%8E%98%20%ED%8F%AC" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab3-12" data-title="바다식탁">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>고소동 바다식탁</h1>
+    </div>
+    <center><img src="바다식탁.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>바다카레 - 14,000원<br>바다파스타(로제,크림) - 17,000원<br>
+        바다라면 - 10,000원<br>갓김치볶음밥 - 11,000원<br>
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=1647293481" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+
+  <div data-role="page" id="tab4-1" data-title="모이핀">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>돌산 모이핀</h1>
+    </div>
+    <center><img src="모이핀.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>아메리카노 - 6,000원<br>카페 라떼 - 6,500원<br>바닐라 라떼 - 7,000원
+        <br>아인슈패너 - 8,000원<br>콜드브루 - 6,500원<br><br><br>
+        모이핀 뜻 : 핀란드어 '모이' 는 안녕이란뜻입니다.<br>
+        “안녕,핀란드” 라는 이름으로 고객님들과 인사하고 싶습니다.<br>
+        <br>
+        • 약 500평/4층 규모 카페<br>
+        • 5천평 잔디광장 및 주차장<br>
+        • 탁트인 오션뷰와 루프탑<br>
+        • 엔터 펍<br>
+        • 감각적인 건축물<br>
+        <br>
+        ( 연중무휴 / 애완동물 동반입장 불가 )<br>
+        <br>
+        모이핀 이 황홀함을 선사하겠습니다
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1754154655&query=%EB%AA%A8%EC%9D%B4%ED%95%80" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab4-2" data-title="카페드몽돌">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>돌산 카페드몽돌</h1>
+    </div>
+    <center><img src="카페드몽돌.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>심해500ml(에이드) - 7,000원<br>바다구름(coffee) - 7,000원<br>갓모히또 - 8,000원
+        <br>트러플수란 피자 - 21,000원<br>여수돌산갓김치 리조또 - 19,500원<br><br><br>
+        카페드몽돌은 모가나지 않고 둥근 몽돌에서 얻은 모티브로 만들어 졌습니다.<br>
+        푸른바다 바로 옆에서 자연과 함께 여러분을 맞이 하고 싶습니다.<br>
+        카페드몽돌 에서만 만날수있는 여수 특산물을 이용한 메뉴들을 맛볼수 있습니다.<br>
+        <br>
+        몽돌이 느껴지는 3층규모 본관, <br>
+        빨강머리 앤이 살것 같은 다락방이 있는 별관,<br>
+        무슬목 바다를 품은 넓직한 잔디밭,<br>
+        탁트인 오션뷰가 펼쳐지는 루프탑.<br>
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?entry=plt&id=1133190983&query=%EC%B9%B4%ED%8E%98%EB%93%9C%EB%AA%BD%EB%8F%8C" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab4-3" data-title="진남횟집">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>돌산 진남횟집</h1>
+    </div>
+    <center><img src="진남횟집.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>스폐셜물회 - 60,000원<br>물회 - 13,000원<br>멍게물회 - 15,000원<br>
+        해삼물회 - 17,000원<br>문어숙회물회 - 18,000원
+      </p>
+      <a href="https://store.naver.com/restaurants/detail?id=12020703" data-role="button">
+        더 알아보기</a>
+    </center>
+  </div>
+
+  <div data-role="page" id="tab4-4" data-title="로스티아">
+    <div data-role="header" data-add-back-btn="true">
+      <h1>로스티아</h1>
+    </div>
+    <center><img src="로스티아.png" width="300" height="200">
+      <h1>메뉴</h1>
+      <p>딱새우크림파스타 - 18,000원<br>명란갓파스타 - 18,000원<br>
+        돌산갓페스토파스타 - 17,000원<br>돌산갓수제버거 - 10,000원<br>
+        멕시코칠리버거 - 11,000원
+        <a href="https://store.naver.com/restaurants/detail?entry=pll&id=1739359594&query=%EB%A1%9C%EC%8A%A4%ED%8B%B0%EC%95%84" data-role="button">
+          더 알아보기</a>
+      </p>
+    </center>
+  </div </body>
+
+
+</html>
